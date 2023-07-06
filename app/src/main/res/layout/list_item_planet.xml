@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp">
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:textSize="21sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Planet"
+            android:textSize="21sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_pengertian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pengertian"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_ukuran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ukuran "
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_karakteristik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="karakteristik"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_sejarah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sejarah"
+            android:textSize="20sp"
+            android:maxLines="2"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
